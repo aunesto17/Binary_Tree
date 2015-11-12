@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F42DF8A31BC4097700E56940 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F42DF8A21BC4097700E56940 /* main.cpp */; };
+		F42DF8AB1BC4099100E56940 /* btree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F42DF8A91BC4099100E56940 /* btree.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F42DF89F1BC4097700E56940 /* AED_BinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AED_BinaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42DF8A21BC4097700E56940 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F42DF8A91BC4099100E56940 /* btree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = btree.cpp; sourceTree = "<group>"; };
+		F42DF8AA1BC4099100E56940 /* btree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = btree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F42DF8A21BC4097700E56940 /* main.cpp */,
+				F42DF8AA1BC4099100E56940 /* btree.hpp */,
+				F42DF8A91BC4099100E56940 /* btree.cpp */,
 			);
 			path = AED_BinaryTree;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42DF8AB1BC4099100E56940 /* btree.cpp in Sources */,
 				F42DF8A31BC4097700E56940 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
